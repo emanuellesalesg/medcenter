@@ -1,0 +1,182 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.banner_desc h1{
+    font-size: 3rem;
+    max-width: 50%;
+    text-shadow: 0px 1px black;
+}
+
+.banner_desc p{
+    font-size: 1.5rem;
+    max-width: 60%;
+    text-shadow: 0px 1px black;
+}
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    padding: 25px 25px 25px 0px;
+    margin-bottom: 20px;
+}
+
+.banner_footer{
+    flex: 1;
+    
+}
+
+.title_fotter{
+    padding: 20px 0px;
+}
+
+.banner_footer p{
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.banner_footer h1{
+    margin-block-start: 4px;
+    color: #068ABB;
+}
+
+.banner_footer button{
+    background-color: #068ABB;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin-top: 15px;
+    margin-top: 20px;
+
+}
+
+.work_hour div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+}
+
+.work_hour{
+    margin-left: 10px;
+}
+
+.news_navigation{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.articles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.news_navigation .articles{
+    flex: 2;
+}
+
+.news_navigation aside{
+    flex: 1;
+}
+
+.articles article{
+    flex: 1;
+    width: 400px;
+    margin-bottom: 30px;
+    
+}
+
+.bf2{
+    margin-left: 10px;
+}
+
+.news_thumbnail img{
+    width: 400px;
+}
+
+.news{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.widget_title{
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 340px;
+}
+
+.news_title h1{
+    font-size: 20px;
+    padding: 5px 0;
+    color: #068ABB;
+}
+
+.news_resume{
+    max-width: 340px;
+}
+
+.body_departments{
+    margin-bottom: 20px;
+}
+
+.body_departments a{
+    padding: 10 0px;
+    font-size: 16px;
+}
+
+.contact-side div{
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-side div img{
+    margin-right: 10px;
+}
+
+.news_resume p{
+    text-align: justify;
+}
+
+.date{
+    margin-left: 0;
+    padding: 5px;
+    background-color: #068ABB;
+    color: white;
+    margin-right: 3px;
+}
+
+.comments{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.opening_hours{
+    padding: 5px;
+}
+
+
+

@@ -1,0 +1,59 @@
+.flex_footer{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #1E1E1E;
+    color: whitesmoke;
+}
+
+.flex_footer div{
+    flex: 1;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.flex_footer div a p{
+    text-align: justify;
+    color: rgba(240, 248, 255, 0.623);
+}
+
+.flex_footer div a p .read, .footer_title div a p span{
+    color: #068ABB;
+}
+
+.footer_title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_contact{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: solid 1px gray;
+}
+
+.footer_contact img{
+    margin-right: 20px;
+    padding: 2px 3px;
+    background-color: aliceblue;
+    border-radius: 2px;
+}
+
+.footer_social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.insta{
+    width: 30px;
+}
+
+.linkedin{
+    width: 20px;
+}
+
+.xlogo{
+    width: 30px;
+}

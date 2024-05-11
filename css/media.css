@@ -1,0 +1,136 @@
+@media (max-width: 1024px){
+    .banner_desc h1{
+        font-size: 2.5rem;
+        max-width: 70%;
+    }
+    .banner_desc p{
+        font-size: 1.5rem;
+        max-width: 90%;
+    }
+    .flex_footer{
+        width: 100vw;
+    }
+    .footer_contact img{
+        background-color: white;
+        padding: 2px 3px;
+        border-radius: 2px;
+    }
+    
+}
+
+@media (max-width: 600px){
+    header{
+        height: auto;
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+    }
+
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px;
+    }
+
+    .logo{
+        margin: 20px;
+    }
+
+    .container_header{
+        width: 100%;
+        padding: 10px 0 10px 10px;
+    }
+    
+    .main ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        
+    }
+
+    .main ul li{
+        padding: 10px;
+        margin: 8px;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .banner_desc h1{
+        font-size: 2rem;
+        max-width: 90%;
+    }
+    .banner_desc p{
+        font-size: 1.2rem;
+        max-width: 90%;
+    }
+    
+    .flex_row{
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    .banner_footer{
+        padding: 10px 30px 30px 0px;
+    }
+
+    .news_thumbnail img{
+        width: 350px;
+    }
+
+    .news_navigation{
+        flex-direction: column;
+    }
+
+    .flex_footer{
+        flex-direction: column;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .flex_footer{
+        width: 100vw;
+    }
+
+    .flex_row h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .flex_row .opening_hours{
+        border-bottom: none;
+    }
+
+    .flex_row p{
+        text-align: justify;
+        padding: 10px 0;
+    }
+
+    .work_hour{
+        margin-left: 0;
+        font: 10px;
+        
+    }
+
+    .work_hour p{
+        font-size: 14px;
+    }
+    
+ 
+}
+
+@media (max-width: 400px){
+    .news_thumbnail img{
+        width: 250px;
+    }
+    .news_thumbnail{
+        width: 250px;
+    }
+}
